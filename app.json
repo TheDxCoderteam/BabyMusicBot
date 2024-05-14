@@ -51,7 +51,7 @@
         "description": "Your heroku app name",
         "value": "",
         "required": false
-    }
+     },
           "START_IMG_URL": {
          "description": "your favourate image",
          "required": true,
