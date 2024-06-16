@@ -8,7 +8,7 @@ load_dotenv()
 
 
 API_ID = int(getenv("API_ID", 22031761 ))
-API_HASH = getenv("API_HASH", aed7116467f2621556fd2ab657840c49)
+API_HASH = getenv("API_HASH","aed7116467f2621556fd2ab657840c49")
 BOT_TOKEN = getenv("BOT_TOKEN","6720481419:AAEIuHdsAXlw88Jr0miJWlrXqXXikshQeaA")
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Aryan:Aryanmusic@aryanmusic0.qzy20ty.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1080))
