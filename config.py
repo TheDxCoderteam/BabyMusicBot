@@ -7,12 +7,12 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", 22031761 ))
-API_HASH = getenv("API_HASH","aed7116467f2621556fd2ab657840c49")
-BOT_TOKEN = getenv("BOT_TOKEN","6720481419:AAEIuHdsAXlw88Jr0miJWlrXqXXikshQeaA")
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Aryan:Aryanmusic@aryanmusic0.qzy20ty.mongodb.net/?retryWrites=true&w=majority")
+API_ID = int(getenv("API_ID",))
+API_HASH = getenv("API_HASH",)
+BOT_TOKEN = getenv("BOT_TOKEN",)
+MONGO_DB_URI = getenv("MONGO_DB_URI",)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1080))
-LOGGER_ID = int(getenv("LOGGER_ID", -1002140883754 ))
+LOGGER_ID = int(getenv("LOGGER_ID", ))
 OWNER_USERNAME = getenv("OWNER_USERNAME","Itz_prince_king")
 CHAT_GROUP = getenv("CHAT_GROUP","https://t.me/FRIENDS2FAMILY00")
 OWNER_ID = int(getenv("OWNER_ID", 5724322712))
